@@ -45,7 +45,7 @@ fetch('http://99.79.77.144:3000/api/contact', {
 })
   .then((response) => response.json())
   .then((data) => {
-    console.log('Success:', data);
+    console.log('Success: 201', data);
 
   })
   .catch((error) => {
